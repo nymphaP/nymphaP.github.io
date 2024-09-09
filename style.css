@@ -1,0 +1,22 @@
+.help{
+    font-size: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom-style: dashed;
+    font-style:bold;
+    padding:10px;
+}
+.gang{
+    font-size:20px;
+    padding: 10px;
+    border-bottom-style:dashed;
+}
+.des{
+    font-size:25px;
+    border-bottom-style:dashed;
+    padding:10px;
+    font-style: italic;
+}
+body{
+    background-color:darkseagreen
+}

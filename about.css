@@ -1,0 +1,16 @@
+.oh{
+    font-size:50px;
+    border-bottom-style:dashed;
+    font-style:edit;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.lin{
+    font-size:20px;
+    padding: 10px;
+    border-bottom-style: dashed;
+}
+body{
+    background-color:#03d7fc
+}
