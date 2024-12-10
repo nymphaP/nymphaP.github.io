@@ -97,6 +97,7 @@ body{
 }
 a:link{
     text-decoration: none;
+    color:#BE7C4D;
 }
 .shop:visited{
     color:white;
@@ -222,3 +223,97 @@ color:#BE7C4D;
 .item:hover .buttons {
     display: flex;
   }
+.view:link{
+    color:black;
+    font-family:"Itim", cursive;
+}
+.view:visited{
+    color:black;
+}
+#layz{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    margin-top:5vh;
+}
+#layz img{
+    height:80vh;
+}
+
+#layz2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    height:60vh;
+    margin-top:10vh;
+}
+#layz3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height:20vh;
+    border-bottom-style:ridge;
+}
+.name{
+    font-size:24px;
+    font-weight:bold;
+    font-family: "itim",cursive;
+}
+.price2{
+    font-family:"Itim",cursive;
+    font-size:15px;
+    text-align:center;
+
+}
+#layz4{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height:30vh;
+}
+#layz5{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.store{
+    border-radius:100%;
+    background-color:#BE7C4D;
+    color:white;
+    transform:scale(1.5,1.5);
+    font-family:"Itim",cursive;
+    border-color:#BE7C4D;
+
+}
+.store:active{
+    color:#dab79d
+}
+.butz{
+    border-radius:10%;
+}
+#thankz{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    height:40vh;
+    width:60vw;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    box-shadow: -20px 20px 35px black;
+    text-align:center;
+    font-family:"Itim",cursive;
+    border-top-style:ridge;
+    border-top-width:3px;
+}
+.blah{
+    font-size:50px;
+    font-weight:bold;
+}
